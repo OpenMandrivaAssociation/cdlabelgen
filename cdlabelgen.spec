@@ -1,8 +1,8 @@
 %define name cdlabelgen
 %define version 3.6.0
-%define release %mkrel 2
+%define release %mkrel 3
 
-Summary: Program for generating frontcards and traycards for CDs
+Summary: Program for generating inserts for CDs
 Name: %{name}
 Version: %{version}
 Release: %{release}
@@ -17,7 +17,7 @@ Buildarch: noarch
 cdlabelgen is a program for generating frontcards and traycards for CDs.
 Use it to make labels for your archive CDs, CDs full of oggs, or
 even make a label for that CD that you lost the case for! 
-This package is used by the gcombust frontend to cd burning.
+This package is used by the gcombust CD writing application.
 
 %prep
 
