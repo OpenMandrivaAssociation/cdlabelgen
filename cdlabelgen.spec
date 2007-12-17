@@ -10,7 +10,6 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Url: http://www.aczoom.com/tools/cdinsert/
 Group: Archiving/Cd burning
-BuildRoot: %{_tmppath}/%{name}-buildroot
 Buildarch: noarch
 
 %description
