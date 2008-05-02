@@ -1,13 +1,13 @@
 %define name cdlabelgen
-%define version 3.6.0
-%define release %mkrel 3
+%define version 4.0.0
+%define release %mkrel 1
 
 Summary: Program for generating inserts for CDs
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Source0: %{name}-%{version}.tar.bz2
-License: GPL
+Source0: http://www.aczoom.com/pub/tools/%name-%version.tgz
+License: GPLv2+
 Url: http://www.aczoom.com/tools/cdinsert/
 Group: Archiving/Cd burning
 BuildRoot: %{_tmppath}/%{name}-buildroot
