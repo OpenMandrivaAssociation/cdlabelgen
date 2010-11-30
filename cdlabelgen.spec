@@ -1,6 +1,6 @@
 %define name cdlabelgen
 %define version 4.1.0
-%define release %mkrel 3
+%define release %mkrel 4
 
 Summary: Program for generating inserts for CDs
 Name: %{name}
