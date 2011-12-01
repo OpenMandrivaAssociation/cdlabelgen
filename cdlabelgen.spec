@@ -26,19 +26,19 @@ This package is used by the gcombust CD writing application.
 %build
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
-mkdir -p $RPM_BUILD_ROOT%{_mandir}/man1
-mkdir -p $RPM_BUILD_ROOT%_mandir/man1
+mkdir -p %{buildroot}%{_mandir}/man1
+mkdir -p %{buildroot}%_mandir/man1
 
 # [gb] they meant DATA_DIR
 make install \
-	BASE_DIR=$RPM_BUILD_ROOT%{_prefix} \
-	LIB_DIR=$RPM_BUILD_ROOT%{_datadir}/%{name} \
-	MAN_DIR=$RPM_BUILD_ROOT%{_mandir}
+	BASE_DIR=%{buildroot}%{_prefix} \
+	LIB_DIR=%{buildroot}%{_datadir}/%{name} \
+	MAN_DIR=%{buildroot}%{_mandir}
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
