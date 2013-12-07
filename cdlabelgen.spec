@@ -1,7 +1,7 @@
 Summary:	Program for generating inserts for CDs
 Name:		cdlabelgen
 Version:	4.2.0
-Release:	2
+Release:	3
 License:	GPLv2+
 Group:		Archiving/Cd burning
 Url:		http://www.aczoom.com/tools/cdinsert/
