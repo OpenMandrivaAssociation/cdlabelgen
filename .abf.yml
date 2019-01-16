@@ -1,4 +1,5 @@
 removed_sources:
   cdlabelgen-4.1.0.tgz: 62238221e4f7374a8cbfdcbcd7f2db1f98e98744
-sources:
   cdlabelgen-4.2.0.tgz: cbad1b9de9484a6608ef37edb60a5eaafee5c1a4
+sources:
+  cdlabelgen-4.3.0.tgz: 1f7e1c34f7a5f409da19ca768a07778191264b19
