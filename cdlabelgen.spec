@@ -4,7 +4,7 @@ Version:	4.3.0
 Release:	2
 License:	GPLv2+
 Group:		Archiving/Cd burning
-Url:		http://www.aczoom.com/tools/cdinsert/
+Url:		https://www.aczoom.com/tools/cdinsert/
 Source0:	http://www.aczoom.com/pub/tools/%{name}-%{version}.tgz
 Buildarch:	noarch
 
