@@ -8,6 +8,7 @@ Url:		https://www.aczoom.com/tools/cdinsert/
 Source0:	http://www.aczoom.com/pub/tools/%{name}-%{version}.tgz
 Buildarch:	noarch
 
+BuildRequires:	make
 %description
 cdlabelgen is a program for generating frontcards and traycards for CDs.
 Use it to make labels for your archive CDs, CDs full of oggs, or
